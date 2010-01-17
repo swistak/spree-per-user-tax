@@ -1,0 +1,5 @@
+## YAML Template.
+---
+en-US:
+  tax_exemption: Tax Exemption
+  full_name_for_tax_exemption: Full name (for Tax Exemption confirmation)
