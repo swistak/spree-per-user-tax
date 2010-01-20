@@ -1,0 +1,22 @@
+<h2><%= t("tax_exemption")%></h2>
+<div class="inner">
+  <p>
+    <label for="tax_exemption" id="tax_exemption_label"><%= t("tax_exemption") %></label>
+    <%= checkout_form.check_box :tax_exemption %>
+  </p>
+  <p>
+    <textarea cols="40" rows="20">
+TERMS AND CONDITIONS
+
+Goe here
+    </textarea>
+  </p>
+  <p>
+    <label for="tax_exemption_name"><%= t("full_name_for_tax_exemption") %></label>
+    <%= checkout_form.text_field :tax_exemption_name -%>
+  </p>
+  <hr class="space" />
+  <div class="form-buttons">
+    <input type="submit" class="continue button primary" value="<%=t("save_and_continue") %>"/>
+  </div>
+</div>
